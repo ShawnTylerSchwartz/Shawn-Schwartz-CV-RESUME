@@ -1,6 +1,6 @@
 %
 % Shawn-T-Schwartz_CV.tex
-% Copyright (c) 2018 Shawn Tyler Schwartz <shawnschwartz@ucla.edu>
+% Copyright (c) 2018-2019 Shawn Tyler Schwartz <shawnschwartz@ucla.edu>
 % https://shawntylerschwartz.com
 %
 
@@ -8,6 +8,9 @@
 % \usepackage{helvetica}
 \newsectionwidth{0pt}
 \usepackage{fancyhdr}
+
+\usepackage{graphicx}
+\graphicspath{{icons/}}
 
 % \usepackage{hyperref}
 \usepackage[hidelinks]{hyperref}
@@ -36,24 +39,35 @@
 \pagestyle{fancy}
 \lfoot{ {\it CURRICULUM VITAE} }
 \rhead{ {\it S.T. Schwartz}\\{\it pg. \thepage} }
-\rfoot{ {\it Updated 11/2018} }
+\rfoot{ {\it Prepared on \today} }
 \cfoot{}
-\topmargin=-0.5in
+\topmargin=-0.75in
 
 
 \begin{document}
 	\thispagestyle{empty}
-	
-	\moveleft.5\hoffset\centerline{\LARGE\bf SHAWN T. SCHWARTZ}
-	\address{ \centerline{ {\it Modified for Web}, Los Angeles, CA 90024} \\ \centerline{shawnschwartz@ucla.edu $\cdot$ shawntylerschwartz.com $\cdot$ (818) 370-2159}}
+	%\moveleft.5\hoffset\centerline{\LARGE\bf SHAWN T. SCHWARTZ}
+	{\LARGE\bf SHAWN T. SCHWARTZ} \\ \\
+	University of California, Los Angeles \\
+	Los Angeles, CA 90095 \\
+	Phone: (818) 370-2159 \\ \\
+		%\centerline{\LARGE\bf SHAWN T. SCHWARTZ}
+	%\centerline{University of California, Los Angeles, 90095} \\
+	%\includegraphics[width=0.5cm]{www.png} shawntylerschwartz.com \\ \includegraphics[width=0.5cm]{github.png} @ShawnTylerSchwartz \\ \includegraphics[width=0.5cm]{twitter.png} \\
+	\raisebox{-.25\height}{\includegraphics[width=0.5cm]{www.png}} shawntylerschwartz.com
+	\raisebox{-.25\height}{\includegraphics[width=0.5cm]{telegram.png}} shawnschwartz@ucla.edu \\
+	\raisebox{-.25\height}{\includegraphics[width=0.5cm]{github.png}} {\href{https://github.com/ShawnTylerSchwartz} {@ShawnTylerSchwartz}}
+	\hspace{0.1cm} \raisebox{-.25\height}{\includegraphics[width=0.5cm]{orcid.png}} {\href{https://orcid.org/0000-0001-6444-8451}{0000-0001-6444-8451}}
+	\vspace{-0.5cm}
+			%\address{ \centerline{University of California, Los Angeles, CA 90095} \\ \centerline{shawnschwartz@ucla.edu $\cdot$ shawntylerschwartz.com $\cdot$ (818) 370-2159}}
 	
 	\begin{resume}
 		% SUMMARY
-		\section{SUMMARY}
-		\vspace{\upperv}
-		\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt}\smallskip
-		\vspace{\lowerv}
-		A well-rounded undergraduate student and public speaker with 10 years of programming, design, and full-stack development experience, in over 10 programming languages. My research interests include memory differences and deficits in younger adults as well as in the development of innovative teaching technologies to enhance the 21st century classroom education experience.
+		%\section{SUMMARY}
+		%\vspace{\upperv}
+		%\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt}\smallskip
+		%\vspace{\lowerv}
+		%A well-rounded undergraduate student and public speaker with 10 years of programming, design, and full-stack development experience, in over 10 programming languages. My research interests include memory differences and deficits in younger adults as well as in the development of innovative teaching technologies to enhance the 21st century classroom education experience.
 		
 		% EDUCATION
 		\section{EDUCATION}
@@ -61,22 +75,24 @@
 		\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt}\smallskip
 		\vspace{\lowerv}
 		{\bf University of California, Los Angeles (UCLA)}, Los Angeles, CA \hfill Sept. 2015 \textendash\ Exp. June 2019 
-		\vspace{0.01in} 
-		\\ {\sl Bachelor of Science (B.S.)}, Cognitive Science, {\it Specialization in Computing}, {\it Expected} June 2019 \\
+		\vspace{1.25mm} 
+		\\ {\sl Bachelor of Science (B.S.)}, Cognitive Science, {\it Specialization in Computing} \\
 		\vspace{-0.1mm}
 		\hspace{0.25cm} Highest Departmental Honors and Thesis, {\it Candidate} \\
 		\vspace{0.01mm}
 		\hspace{0.25cm} Thesis: {\it Risks and rewards: memory for positive and negative item-location associations. } \\
 		\vspace{0.01mm}
 		\hspace{0.17cm} Primary Advisor: Dr. Alan D. Castel
-		\vspace{0.75mm}
-		\\ {\sl Bachelor of Science (B.S.)}, Biology, {\it Expected} June 2019 \\
+		\vspace{2.5mm}
+		\\ {\sl Bachelor of Science (B.S.)}, Biology, {\it Specialization in Computing} \\
 		\vspace{-0.1mm}
 		\hspace{0.25cm}  Departmental Honors and Thesis, {\it Candidate} \\
 		\vspace{0.01mm}
 		\hspace{0.25cm} Thesis: {\it Machine learning applications for classifying biodiversity of color-patterns in coral reef fishes. } \\
 		\vspace{0.01mm}
 		\hspace{0.17cm} Primary Advisor: Dr. Michael Alfaro
+		\vspace{1.5mm}
+		\\{\it Selected Relevant Coursework:} Computational Theory \& Simulation (A+), Functional Neuroimaging (A+), Evolutionary Medicine (A-) \& Evolutionary Medicine: Clinical Perspective on Psychiatric Disorders (A), Cognitive Development (A-), Perceptual Development (A+), Behavioral Neuroscience (B),  Biology and Social Justice (A+), Cognitive Psychology (A) \& Laboratory (A+), Human Memory (A), Introductory (A+) \& Advanced Topics in MATLAB Programming (A), 1 Year of Calculus \& Linear Algebra (Avg. A-), 1 Year of Calculus Based Physics (Avg. B+), 1 Year of Ecological, Evolutionary, \& Molecular Biology (Avg. B), 2 Years of Calculus Based General \& Organic Chemistry (Avg. B+)
 		
 		% PUBLICATIONS
 		\section{PUBLICATIONS}
@@ -91,34 +107,74 @@
 			\renewcommand{\section}[2]{}%
 			\begin{thebibliography}{42}
 				\bibitem{Schwartz2018}
-				Dang, J., Lin, B., Yuan, J., {\bf Schwartz, S. T.}, Shah, R. M., \& Garg, N. K. (2018). Smart access to 3D structures. {\it Nature Reviews Chemistry 2}, 95 \textendash\ 96. \textcolor{RoyalBlue}{\href{https://shawntylerschwartz.com/papers/Smart-Access-to-3D-Structures-Schwartz-2018-Nature-Reviews-Chemistry.pdf}{View PDF}}
-				\bibitem{Schwartz2019Memory}
-				{\bf Schwartz, S. T.}, Siegel, A. L. M., \& Castel, A. D. (2019). {\it Risks and rewards: memory for positive and negative item-location associations.} Manuscript in preparation.
+				Dang, J., Lin, B., Yuan, J., {\bf Schwartz, S. T.}, Shah, R. M., \& Garg, N. K. (2018). Smart access to 3D structures. {\it Nature Reviews Chemistry 2}, 95 \textendash\ 96. {\href{https://doi.org/10.1038/s41570-018-0021-y} https://doi.org/10.1038/s41570-018-0021-y} \textcolor{RoyalBlue}{\href{https://shawntylerschwartz.com/papers/Smart-Access-to-3D-Structures-Schwartz-2018-Nature-Reviews-Chemistry.pdf}\\{View PDF}}
 			\end{thebibliography}
 		\endgroup
 		
-		% RESEARCH EXPERIENCE
-		\section{RESEARCH EXPERIENCE}
+		% MANUSCRIPTS IN PREPARATION
+		\section{MANUSCRIPTS IN PREPARATION}
+		\vspace{\upperv}
+		\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt}\smallskip
+		\begingroup
+			\renewcommand{\section}[2]{}%
+			\begin{thebibliography}{42}
+				\bibitem{Schwartz2019Fish}
+				Alfaro, M. E., Karan, E. A., {\bf Schwartz, S. T.}, \& Schultz, A. J. (in prep). {\it Quantitative approaches for studying color pattern evolution in coral reef fishes.} Manuscript in preparation.
+				\bibitem{Schwartz2019Memory}
+				{\bf Schwartz, S. T.}, Siegel, A. L. M., \& Castel, A. D. (in prep). {\it Risks and rewards: memory for positive and negative item-location associations.} Manuscript in preparation.
+			\end{thebibliography}
+		\endgroup
+		
+		% INVITED TALKS
+		\section{INVITED TALKS}
 		\vspace{\upperv}
 		\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt}\smallskip
 		\vspace{\lowerv}
-		{\bf The Alfaro Lab}, UCLA, Los Angeles, CA  \hfill September 2018 \textendash\ Present \\
+		{\bf UCLA}, Memory and Lifespan Cognition Laboratory, May 23, 2019 (Upcoming) \\
+		{\bf Claremont McKenna College}, Keck Science Department of Biology, May 2, 2019 (Upcoming) \\ 
+		{\bf UCLA}, Memory and Lifespan Cognition Laboratory, February 14, 2019 \\
+		{\bf UCLA}, Alfaro Laboratory, February 13, 2019 \\
+		{\bf UCLA}, Department of Psychology Honors Seminar, January 30, 2019 \\
+		{\bf UCLA}, Memory and Lifespan Cognition Laboratory, October 18, 2018
+		 
+		% CURRENT RESEARCH EXPERIENCE
+		\section{CURRENT RESEARCH EXPERIENCE}
+		\vspace{\upperv}
+		\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt}\smallskip
+		\vspace{\lowerv}
+		{\bf Foster Lab}, UCLA, Los Angeles, CA  \hfill January 2019 \textendash\ Present \\
+		{\sl Department of Sociology} \\
+		{\it Visiting/Collaborating Computational Research Assistant} \\
+		Principal Investigator: Dr. Jacob Foster
+		\begin{itemize} \itemsep -2pt
+			\item Developing computational models to study the birth, life, and death of television series.
+			\item Collaborating with members from the Alfaro Lab to study the evolution of ideas.
+		\end{itemize}
+		
+		{\bf Alfaro Lab}, UCLA, Los Angeles, CA  \hfill September 2018 \textendash\ Present \\
+		{\sl Department of Ecology \& Evolutionary Biology} \\
 		{\it Undergraduate Honors Thesis Student \& Research Assistant} \\
 		Principal Investigator: Dr. Michael Alfaro
 		\begin{itemize} \itemsep -2pt
 			\item My current research with Liz Karan, under Michael Alfaro, Ph.D., focusses on designing novel machine learning image processing algorithms to classifying the biodiversity of color-patterns in coral reef fishes. 
-			\item Evolutionary Biology Research Interests: Computational and Comparative Phylogenetic Analyses, Biological Statistical Modeling, Species Biodiversity Classification
+			\item \underline{Evolutionary Biology Research Interests:} Computational and Comparative Phylogenetic Analyses, Biological Statistical Modeling, Species Biodiversity Classification, Micro- \& Macro-Evolutionary Events
 		\end{itemize}
 		
 		{\bf Memory and Lifespan Cognition Lab}, UCLA, Los Angeles, CA  \hfill February 2018 \textendash\ Present \\
+		{\sl Department of Psychology} \\
 		{\it Undergraduate Honors Thesis Student \& Research Assistant} \\
 		Principal Investigator: Dr. Alan D. Castel
 		\begin{itemize} \itemsep -2pt
 			\item My current research with Alexander L. M. Siegel, M.A., under Alan Castel, Ph.D., focusses on establishing differences in the relationships between an item's value and its spatial location to investigate participants' strategies in visuospatial memory recall with risk-reward motivation. 
 			\item Other projects include the investigation of priming and interference in everyday memory and attention.
-			\item Cognitive Research Interests: Metacognition, Aging, Metamemory, Risk-Reward, Visuospatial Memory
+			\item \underline{Cognitive Research Interests:} Computational Modeling, Metacognition, Metamemory, Risk-Reward, Visuospatial Memory
 		\end{itemize}
 		
+		% PRIOR RESEARCH EXPERIENCE
+		\section{PRIOR RESEARCH EXPERIENCE}
+		\vspace{\upperv}
+		\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt}\smallskip
+		\vspace{\lowerv}
 		{\bf NASA Jet Propulsion Laboratory (JPL)}, Pasadena, CA \hfill October 2013 \textendash\ March 2014 \\
 		{\it High School Computational Chemistry Researcher}
 		\begin{itemize} \itemsep -2pt
@@ -133,22 +189,21 @@
 		\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt}\smallskip
 		\vspace{0pt}
 		\begin{itemize} \itemsep 2pt
-			\item {\bf Programming} 
-				\\ {\sl Fluent in} Java, C++, Python, MATLAB, R, PHP, HTML5, CSS3, JavaScript
+			\item {\bf Programming (10 Years of Experience)} 
+				\\ {\sl Fluent in} C++, Python, MATLAB, R, Java, PHP, HTML5, CSS3, JavaScript
 				\\ {\sl Proficient in} Swift, MySQL, Ruby, JSON, jQuery, AngularJS, Node.js
+				\\ {\sl Machine Learning Frameworks/Deep Learning Models:} TensorFlow, Keras, AlexNet \& VGG16 DCNNs
 				\\ {\sl Statistical Packages:} tidy, colordistance, dplyr, pavo, magick
 				\\ {\sl Other Libraries \& Tools:} jsPsych, Collector, Psychtoolbox, Jekyll, Jmol, JSmol, p5.js
-				\\ {\sl Machine Learning:} TensorFlow, Keras
 			\item {\bf Applications}
 				\\ Bash, Git, \LaTeX, SPSS Statistics, Microsoft Excel, Sublime Text, R-Studio, Xcode, Jupyter Notebook
 				\\ Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Lightroom, Adobe XD CC
 			\item {\bf Operating Systems}
 				\\ MacOS, Windows, Linux, iOS, Android
 			\item {\bf Statistical}
-				\\ Analysis of variance, correlation, chi-square, regression, hierarchical linear modeling (HLM)
+				\\ Analysis of variance, correlation, chi-square, regression, hierarchical linear modeling (HLM), Principal Component Analysis (PCA), Independent Component Analysis (ICA), Bayesian Inference, Multidimensional Scaling, K-Means \& Hierarchical Agglomerative Clustering, Dendrogram Analysis
 			\item {\bf Laboratory}
-				\\ Titrations, Micropipetting, Gel Electrophoresis
-				\\ Mass Spectrometry, IR, H,C\textendash NMR Analysis
+				\\ Titrations, Micropipetting, Gel Electrophoresis, Mass Spectrometry, IR, H,C\textendash NMR Analysis
 				\\ Functional Neuroimaging (fMRI) \& FMRIB Software Library (FSL)
 		\end{itemize}
 				
@@ -165,15 +220,15 @@
 			\item Assisted in designing layout \& developed backend JavaScript solutions for responsive headers on the new UCLA Store e-commerce website. \textcolor{RoyalBlue}{\url{http://uclastore.com}}
 			\item Developed a JavaScript kiosk program to run historical timeline of UCLA in UCLA Ackerman Union Level 1.
 			\item Designed \& programmed interactive JSON ASUCLA Store Reward Points checker \& PHP-based menus for campus restaurants.
-			\item Design, code, and send out weekly mass email promotions for 12 UCLA campus stores {\it (1,000,000+ emails delivered per year)}.
+			\item Design, code, and send out weekly mass email promotions for 12 UCLA campus stores {\it (10,000,000+ emails delivered per year)}.
 		\end{itemize}
 		
 		{\bf UCLA Health, Faculty Practice Group (FPG)} \hfill Los Angeles, CA \\
 		{\it Population Health Care Coordinator Intern} \hfill June 2017 \textendash\ September 2018
 		\begin{itemize} \itemsep -2pt
-			\item Invented, developed \& maintained novel web-software for UCLA Health Hospice \& Palliative Care Departments: {\it myEMRA\textsuperscript{\textregistered}: ``my Electronic Matching Resource Assistant"}.  \\ {\sl *Adoption \& Pilot by UCLA Health System \& ISS for proxied network integration currently in progress.*}
+			\item Invented, developed \& maintained novel web-software for UCLA Health Hospice \& Palliative Care Departments: {\it myEMRA\textsuperscript{\textregistered}: ``my Electronic Matching Resource Assistant"}.
 			\item Outreached to patients via telephone encounters to obtain missing medical procedure records.
-			\item Maintained innovative Excel Database from UCLA patients' charts (``CareConnect") \& 9 local hospice agencies for tracking \& drawing new statistical conclusions regarding UCLA hospice referrals to external agencies.
+			\item Maintained innovative Excel Database from UCLA patients' Electronic Medical Records (``CareConnect") and 9 local hospice agencies for tracking and drawing new statistical conclusions regarding UCLA hospice referrals to external agencies.
 			\item {\bf Total Volunteered Hours: 451 hours.}
 		\end{itemize}
 		
@@ -188,7 +243,7 @@
 		{\it Designer \& Web Developer} \hfill July 2017 \textendash\ June 2018
 		\begin{itemize} \itemsep -2pt
 			\item Designed, built, and currently maintains (per diem) pediatric dentistry's responsive websites. \\ \textcolor{RoyalBlue}{\url{https://kidzdentalcare.com}} \& \textcolor{RoyalBlue}{\url{https://kidzdentalcare661.com}}
-			\item Created HIPAA-compliant secure patient information pipeline (PHP) that generates \& transmits \\ secured PDF information form to streamline patient-doctor experience and reduce wait-times.
+			\item Created HIPAA-compliant secure patient information pipeline (PHP) that generates \& transmits \\ secured PDF information forms to streamline patient-doctor experience and reduce wait-times.
 		\end{itemize}
 		\vspace{0.02cm} 
 		{\bf LanguageBird\textsuperscript{\textregistered}, LLC} \hfill Los Angeles, CA \\
@@ -203,11 +258,11 @@
 		\moveleft\hoffset\vbox{\hrule width\resumewidth height 0.25pt}\smallskip
 		\vspace{\lowerv}
 		{\bf UCLA Health} \hfill Santa Monica, CA \\
-		{\it Care Extender Internship, Department Coordinator Assistant (DCA)} \hfill February 2017 \textendash\ Present
+		{\it Care Extender Internship, Department Coordinator Assistant (DCA)} \hfill February 2017 \textendash\ February 2019
 		\begin{itemize} \itemsep -2pt
-			\item Shadow out-patient surgeons and radiology technicians for in-patient and emergency department cases, and check-in patients for early-morning surgeries in admissions.
-			\item {\it Department Coordinator Assistant:} Audit fellow Care Extender Volunteers throughout their assigned departments to maintain the quality and integrity of the Care Extender Internship Program.
-			\item {\bf Total Volunteered Hours: 783 hours.}
+			\item Shadowed out-patient surgeons and radiology technicians for in-patient and emergency department cases, and checked in patients for early-morning surgeries in admissions.
+			\item {\it Department Coordinator Assistant:} Audited fellow Care Extender Volunteers throughout their assigned departments to maintain the quality and integrity of the Care Extender Internship Program.
+			\item {\bf Total Volunteered Hours: 814 hours.}
 		\end{itemize}
 		
 		{\bf UCLA Center for Accessible Education (CAE)} \hfill Los Angeles, CA \\
@@ -218,6 +273,13 @@
 			\item Psychology 100B: Research Methods in Psychology (Fall 2017)
 			\item Psychology 124C: Human Memory (Winter 2018)
 			\item Ecology and Evolutionary Biology 186: Evolutionary Medicine (Summer 2018)
+		\end{itemize}
+		
+		{\bf Providence Tarzana Medical Center} \hfill Tarzana, CA \\
+		{\it Engineering Facilities Intern} \hfill September 2014 \textendash\ January 2015
+		\begin{itemize} \itemsep -2pt
+			\item Assisted clinical staff with errands, clerical duties, and medical technology-related problems; helped patients with ambulatory tasks; discharged patients.
+			\item {\bf Total Volunteered Hours: 50 hours.}
 		\end{itemize}
 		
 		% LEADERSHIP EXPERIENCE
@@ -240,8 +302,8 @@
 		\vspace{\lowerv}
 		{\bf Awards:}
 		\begin{itemize} \itemsep -2pt
-			\item Highest Departmental Thesis Honors in Psychology, {\it UCLA}, Exp. June 2019
-			\item Departmental Thesis Honors in Ecology and Evolutionary Biology, {\it UCLA}, Exp. June 2019
+			\item Highest Departmental Thesis Honors in Psychology, {\it UCLA}, Expected June 2019
+			\item Departmental Thesis Honors in Ecology and Evolutionary Biology, {\it UCLA}, Expected June 2019
 			\item Distinguished Care Extender of the Rotation, {\it UCLA Health, Santa Monica Hospital Surgery Center}, October 2018
 			\item Distinguished Community Service Award \& Rank 1/81 Valedictorian, {\it High Tech Los Angeles High School}, June 2015
 			\item Certificate of Congressional Recognition for outstanding community contribution to end the bullying epidemic and provide self-confidence for those affected by it, {\it City of L.A. \& 12th Council District}, July 2014
