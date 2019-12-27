@@ -1,2 +1,4 @@
-# Shawn-Schwartz-CV-RESUME
-LaTeX version of my Curriculum Vitae (CV) and Résumé
+# curriculum-vitae
+Modular LaTeX version of Shawn T. Schwartz's Curriculum Vitae (CV).
+
+[https://shawntylerschwartz.com/cv](https://shawntylerschwartz.com/cv)
